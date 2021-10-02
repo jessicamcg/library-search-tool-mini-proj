@@ -1,0 +1,38 @@
+
+body {
+    background-color: #2e3e50;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#title-card {
+    background-color: #d9e8e8;
+    border-radius: 10px;
+    transform: translateY(+50%);
+}
+
+.text-title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#search-input,
+#format-input,
+.btn {
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.btn {
+    background-color: rgb(72, 180, 119);
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(146, 228, 181);
+    transition: all 0.5s ease-in-out;
+}
