@@ -1,21 +1,17 @@
 
+
 body {
     background-color: #2e3e50;
     display: flex;
-    align-content: center;
-    justify-content: center;
 }
 
-#title-card {
+aside {
     background-color: #d9e8e8;
-    border-radius: 10px;
-    transform: translateY(+50%);
 }
 
 .text-title {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: center;
 }
 
 
