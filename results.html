@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/results-style.css">
 </head>
 <body class="body-results">
-    <aside id="" class="col-3 vh-100">
+    <aside class="col-4 vh-100">
         <div class="col-12 p-3 vh-100">
           <h1 class="text-title">Library of Congress Search Engine</h1>
           <form id="search-form" class="form w-100">
@@ -25,10 +25,14 @@
               <option value="notated-music">Notated Music</option>
               <option value="websites">Websites</option>
             </select>
-            <button class="btn w-100">Click Me</button>
+            <button class="btn w-100">Search</button>
+            <button id="return-btn" class="btn w-100">Go Back</button>
           </form>
         </div>
     </aside>
+    <main>
+        <h2>Showing results for <span id="results-title"> </span></h2>
+    </main>
 </body>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="./assets/results.js"></script>

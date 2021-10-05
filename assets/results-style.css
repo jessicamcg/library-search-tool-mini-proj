@@ -9,11 +9,19 @@ aside {
     background-color: #d9e8e8;
 }
 
-.text-title {
+main {
+    padding: 20px;
+}
+
+.text-title,
+main h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
+main h2 {
+    color: #d9e8e8;
+}
 
 #search-input,
 #format-select,
@@ -33,3 +41,12 @@ aside {
     transition: all 0.5s ease-in-out;
 }
 
+#return-btn {
+    background-color: rgb(255, 109, 109);
+    transition: all 0.5s ease-in-out;
+}
+
+#return-btn:hover {
+    background-color: rgb(252, 152, 152);
+    transition: all 0.5s ease-in-out;
+}
